@@ -2,26 +2,62 @@ body	{
 	font-family: "Georgia";
 }
 
-.activities	{
-}
-
+/*hello world*/
 .greeting	{
 	font-size: 30px;
 }
 
+/*main, always visible*/
 .header	{
+	height: 150px;
+	left: 15%;
 	line-height: 2px;
 	padding-bottom: 40px;
+	position: absolute;
+	right: 0;
 	text-align: center;
 }
 
-.intro	{
+/*tab container*/
+.tab	{
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	text-align: left;
+    top: 150px;
+    width: 15%;
+}
+
+/*individual buttons*/
+.tabb	{
+	font-size: 40px;
+}
+
+/*within tabs*/
+.tabcontent	{
+	display: none;
+	left: 15%;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 150px;
+}
+
+/*activities tab*/
+#activities	{
+	text-align: left;
+}
+
+/*about me tab*/
+#intro	{
 	font-family: "Georgia";
 	text-align: center;
 }
 
-.resume	{
+#projects	{
 }
 
-.sections	{
+/*resume tab*/
+#resume	{
+	text-align: center;
 }
