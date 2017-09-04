@@ -2,13 +2,14 @@
 <html>
 <head>
 	<title>Maya Messinger, Duke 2019</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="interact.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<script src="js/interact.js"></script>
 </head>
 
 <body>
-	<div class="header">
-		<h1 style="color: #0736A4; padding-bottom: 10px">Maya Messinger</h1>
+	<div class="header animated slideInDown">
+		<h1 style="color: #0000C8; padding-bottom: 10px">Maya Messinger</h1>
 		<h2>Duke University</h2>
 		<h2>Class of 2019</h2>
 		<h4>BS Computer Science</h4>
@@ -17,13 +18,13 @@
 
 	<span class="tab">
 		<button class="tabb" id="defaulttab" onclick="switchTab(event, 'intro')">About Me</button><br>
-		<button class="tabb" onclick="switchTab(event, 'activities')">Activities</button><br>
+		<button class="tabb" onclick="switchTab(event, 'projects')">Projects</button><br>
 		<button class="tabb" onclick="switchTab(event, 'resume')">Resume</button><br>
 	</span>
 
 	<div class="tabcontent" id="intro">
 		<div>
-			<img src="hoodie.png"/>
+			<img src="prof.png"/>
 		</div>
 		<div id="greeting">
 			Hello World!
@@ -35,8 +36,11 @@
 		I'm excited to maximize the time I have here at Duke, and look forward to tackling challenges both academic and extracurricular!
 	</div>
 
-	<div class="tabcontent" id="activities">
-		<ul id="projects">
+	<div class="tabcontent" id="projects">
+		<div>
+			<b>Github:</b> <a style="color:#0000FF; text-decoration: none" href="https://github.com/mayamessinger">github.com/mayamessinger</a>
+		</div>
+		<ul id="workedon">
 			Projects:
 			<li>Mozilla Open Source Contributions</li>
 			<li>Chrome Extension</li>
