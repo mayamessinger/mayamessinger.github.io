@@ -1,32 +1,38 @@
 @font-face	{
-	font-family: "Ubuntu";
-	src: url(Ubuntu-R.ttf);
+	font-family: "AlegreyaSans";
+	src: url(fonts/alegreya-sans/AlegreyaSans-Thin.ttf);
+}
+
+@font-face	{
+	font-family: "Monoid";
+	src: url(fonts/Monoid/Monoid-Regular.ttf);
 }
 
 body	{
 	font-family: "Georgia";
+	top: 20px;
 }
 
 /*main, always visible*/
 .header	{
-	font-family: "Ubuntu";
+	font-family: "AlegreyaSans";
 	font-size: 20px;
-	height: 150px;
+	height: 200px;
 	left: 20%;
 	line-height: 2px;
-	padding-bottom: 40px;
+	padding-bottom: 60px;
 	position: absolute;
 	right: 0;
 	text-align: center;
+	top: 20px
 }
 
 /*tab container*/
 .tab	{
 	bottom: 0;
-	left: 0;
 	position: absolute;
 	text-align: left;
-    top: 150px;
+    top: 200px;
     width: 20%;
 }
 
@@ -58,7 +64,7 @@ body	{
 	position: absolute;
 	right: 0;
 	text-align: center;
-	top: 150px;
+	top: 200px;
 }
 
 /*hello world*/
@@ -66,14 +72,21 @@ body	{
 	font-size: 30px;
 }
 
-/*about me tab*/
+/*about me tab, default*/
 #intro	{
-	font-family: "Georgia";
+	display: block;
+	font-family: "Monoid";
 	text-align: center;
+}
+
+#orgs	{
+
 }
 
 /*projects tab*/
 #projects	{
+	font-family: "Monoid";
+	font-size: 20px;
 	text-align: left;
 }
 
