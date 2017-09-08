@@ -8,9 +8,22 @@
 	src: url(fonts/Monoid/Monoid-Regular.ttf);
 }
 
+a	{
+	color: #000000;
+	text-decoration: none;
+}
+
 body	{
 	font-family: "Georgia";
 	top: 20px;
+}
+
+span + ul	{
+	margin-top: 0px;
+}
+
+ul	{
+	list-style-type: square;
 }
 
 /*main, always visible*/
@@ -22,7 +35,7 @@ body	{
 	line-height: 2px;
 	padding-bottom: 60px;
 	position: absolute;
-	right: 0;
+	right: 5%;
 	text-align: center;
 	top: 20px
 }
@@ -40,7 +53,7 @@ body	{
 .tabb	{
 	background-color: #FFFFFF;
 	border: none;
-	color: #0000FF;
+	color: #0000C8;
 	font-family: "RomanS";
 	font-size: 30px;
 	font-weight: bold;
@@ -59,10 +72,11 @@ body	{
 
 /*within tabs*/
 .tabcontent	{
+	bottom: 0;
 	display: none;
 	left: 20%;
 	position: absolute;
-	right: 0;
+	right: 5%;
 	text-align: center;
 	top: 200px;
 }
@@ -79,8 +93,8 @@ body	{
 	text-align: center;
 }
 
+/*list in projects tab*/
 #orgs	{
-
 }
 
 /*projects tab*/
@@ -97,5 +111,4 @@ body	{
 
 /*list in projects tab*/
 #workedon	{
-	text-align: left;
 }
