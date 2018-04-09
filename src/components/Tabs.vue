@@ -22,7 +22,7 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Poiret+One');
 
 #tabs	{
-	margin: 6%;
+	margin-top: 6%;
 	text-align: center;
 }
 

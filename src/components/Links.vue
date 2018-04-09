@@ -3,6 +3,7 @@
 		<span><a title="GitHub" href="https://github.com/mayamessinger"><img src="/src/assets/github.svg" alt="GitHub"/></a></span>
 		<span><a title="LinkedIn" href="https://www.linkedin.com/in/mayamessinger/"><img src="/src/assets/linkedin.png" alt="LinkedIn"/></a></span>
 		<span><a title="email" href="mailto:maya.messinger@duke.edu"><img src="/src/assets/email.svg" alt="email"/></a></span>
+		<span><a title="email" href="https://www.facebook.com/maya.messinger"><img src="/src/assets/facebook.png" alt="Facebook"/></a></span>
 	</footer>
 </template>
 
