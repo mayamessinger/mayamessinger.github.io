@@ -20,23 +20,15 @@ export default {
 </script>
 
 <style lang="scss">
-@font-face {
-  font-family: "Corbert";
-  src: url(https://mayamessinger.github.io/src/css/fonts/Corbert-Regular.otf) format("otf");
-}
-
-@font-face {
-  font-family: "Simplifica";
-  src: local("Simplifica"), url("https://mayamessinger.github.io/src/css/fonts/SIMPLIFICA Typeface.ttf") format("ttf");
-}
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100');
 
 .info {
+  font-family: 'IBM Plex Sans', sans-serif;
   margin-top: 3%;
   text-align: center;
 }
 
 .name {
-  font-family: "Simplifica";
   font-size: 3em;
 }
 
@@ -46,5 +38,6 @@ export default {
 
 .university {
   font-size: 1.5em;
+  font-weight: bold;
 }
 </style>
