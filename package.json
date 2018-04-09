@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "bootstrap": "^4.0.0",
+    "lint": "^1.1.2",
+    "serve": "^6.5.4",
     "vue": "^2.5.11"
   },
   "browserslist": [
