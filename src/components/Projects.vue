@@ -32,7 +32,7 @@ export default {
 	text-align: left;
 }
 
-a	{
+#projects a	{
 	padding-left: 0.75%;
 }
 
