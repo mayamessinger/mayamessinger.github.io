@@ -1,5 +1,6 @@
 <template>
 	<div id="projects">
+		Clouddit for reddit<a href="http://mayamessinger.net/Clouddit">>></a><br/><br/>
 		Mozilla Open Source Contributions<a href="https://bugzilla.mozilla.org/user_profile?user_id=601855">>></a><br/><br/>
 		HackDuke<a href="https://hackduke.org">>></a><br/>
 		- Logistics lead 2017-2018<br/>
