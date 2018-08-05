@@ -1,9 +1,9 @@
 <template>
 	<div id="projects">
-		Clouddit for reddit<a href="http://mayamessinger.net/Clouddit">>></a><br/><br/>
+		Clouddit for reddit<a href="https://mayamessinger.net/Clouddit">>></a><br/><br/>
 		Mozilla Open Source Contributions<a href="https://bugzilla.mozilla.org/user_profile?user_id=601855">>></a><br/><br/>
 		HackDuke<a href="https://hackduke.org">>></a><br/>
-		- Logistics lead 2017-2018<br/>
+		- Logistics lead 2017-2018, mentor 2018-2019<br/>
 		- Ideate website developer<a href="https://ideate.hackduke.org">>></a><br/>
 	</div>
 </template>
@@ -27,7 +27,7 @@ export default {
 	color: #2f4f4f;
 	font-family: 'Jura', sans-serif;
 	font-size: 1.25em;
-	margin-left: 30%;
+	margin-left: 25%;
 	margin-right: 4%;
 	margin-top: 3%;
 	text-align: left;
