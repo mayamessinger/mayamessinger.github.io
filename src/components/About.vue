@@ -1,9 +1,10 @@
 <template>
 	<div id="about">
 		I'm Maya, a Computer Science major (and History minor) at Duke University, expecting to graduate in May 2019.<br/>
-		Looking to land in Austin, Texas, my home city and where I've had the opportunity to intern at Intel for the past three summers.<br/><br/>
+		Home city: Austin, Texas<br/>
+		Future workplace: <a href="https://rev.com">Rev.com</a><br/><br/>
 		Software engineer.<br/>
-		Front-end web developer.<br/>
+		Full-stack web developer.<br/>
 		Problem-solver.<br/>
 	</div>
 </template>

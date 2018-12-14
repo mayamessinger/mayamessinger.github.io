@@ -1,7 +1,10 @@
 <template>
 	<div id="projects">
-		Clouddit for reddit<a href="https://mayamessinger.net/Clouddit">>></a><br/><br/>
-		Mozilla Open Source Contributions<a href="https://bugzilla.mozilla.org/user_profile?user_id=601855">>></a><br/><br/>
+		Clouddit for reddit<a href="https://mayamessinger.net/Clouddit">>></a><br/>
+		- Word cloud of reddit posts, harnessing D3.js module and reddit API <br/><br/>
+		LinguisticDB<a href="https://github.com/mayamessinger/LinguisticDB">>></a><br/>
+		- Full-stack web development project implemented with PostgreSQL, Node, and Vue.js<br/><br/>
+		Mozilla Firefox Open Source Contributions<a href="https://bugzilla.mozilla.org/user_profile?user_id=601855">>></a><br/><br/>
 		HackDuke<a href="https://hackduke.org">>></a><br/>
 		- Logistics lead 2017-2018, mentor 2018-2019<br/>
 		- Ideate website developer<a href="https://ideate.hackduke.org">>></a><br/>
