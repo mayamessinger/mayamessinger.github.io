@@ -1,6 +1,6 @@
 <template>
 	<div id="projects">
-		Clouddit for reddit<a href="https://mayamessinger.net/Clouddit">>></a><br/>
+		Clouddit for reddit<a href="https://mayamessinger.dev/Clouddit">>></a><br/>
 		- Word cloud of reddit posts, harnessing D3.js module and reddit API <br/><br/>
 		LinguisticDB<a href="https://github.com/mayamessinger/LinguisticDB">>></a><br/>
 		- Full-stack web development project implemented with PostgreSQL, Node, and Vue.js<br/><br/>
